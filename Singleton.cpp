@@ -24,19 +24,14 @@
 //1)global variable
 //2)Lazy initialization takes control away from you
 //3)They encourage coupling
-//4)They aren’t concurrency - friendly
+//4)They arenâ€™t concurrency - friendly
 //5)Static local variables break concurrent execution
-//Reentrant functions – functions that can be called from
+//Reentrant functions â€“ functions that can be called from
 //multiple concurrent threads of execution
 //Static state must be guarded with mutexes, or function will
 //not generate correct results
 //(For reentrant functions, better to just avoid static state!)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-//Problems with this Design Pattern:
-
-
 #include<iostream>
 using namespace std;
 
